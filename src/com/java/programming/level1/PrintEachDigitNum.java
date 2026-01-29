@@ -2,7 +2,7 @@ package com.java.programming.level1;
 
 import java.util.Scanner;
 
-public class PrintEachDigitofNum {
+public class PrintEachDigitNum {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
