@@ -14,7 +14,8 @@ public class ArmstrongNum1ToN {
         for (int i = 1; i <= n; i++) {
             int sum = 0;
             int temp = i;
-            int temp1 = i;
+            int temp1 ;
+            temp1 = i;
             while (temp != 0) {
                 int rem = temp % 10;
                 sum += (int) Math.pow(rem, p);
