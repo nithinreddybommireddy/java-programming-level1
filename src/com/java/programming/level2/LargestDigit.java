@@ -7,7 +7,6 @@ public class LargestDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number:");
         int n = sc.nextInt();
-        sc.close();
         int largestDigit = 0;
 
         while (n != 0) {
@@ -18,5 +17,7 @@ public class LargestDigit {
             n = n / 10;
         }
         System.out.println("Largest digit is :" + largestDigit);
+        sc.close();
+
     }
 }
